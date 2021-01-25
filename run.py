@@ -16,7 +16,7 @@ def plot_results(predicted_data, true_data):
     fig = plt.figure(facecolor='white')
     ax = fig.add_subplot(111)
     ax.plot(true_data, label='True Data')
-    plt.plot(predicted_data, label='Prediction')
+    plt.plot(predicted_data, label='Pred')
     plt.legend()
     plt.show()
 
